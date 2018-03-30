@@ -8,10 +8,16 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
     <!-- // Intro -->
-    <header>
+<div>
+    <header id="about">
       <div class="content-wrap">
-
         <img class="profile-img col-narrow" src="images/satwik.jpg" alt="Your Name">
         <div class="col-wide">
           <h1>Satwik Mandapati</h1>
@@ -24,39 +30,38 @@
 
     <main>
         <!-- // Work Experience -->
-        <section class="work">
+        <section id="work" class="work">
           <div class="content-wrap">
             <h2>Work Experience</h2>
 
             <div class="col-narrow">
 
               <h3>Web Developer</h3>
-              <p>Arlon IT Solutions</p>
+              <p class ="uppercase">Arlon IT Solutions</p>
               <p>June 2015 - December 2015</p>
 
             </div>
-            <div class="col-wide">
-              <p>Provided various front-end services and got a hands on experiece on
-                projects using technologies like JavaScript, AJAX, XML, CSS. </p>
+            <div class="col-wide job-description">
+              <p>Provided various front-end services and got a hands on experiece on projects using technologies like JavaScript, AJAX, XML, CSS. </p>
             </div>
 
 
             <div class="col-narrow">
               <h3>Web Developer</h3>
-              <p>BSNL</p>
+              <p class ="uppercase">BSNL</p>
               <p>June 2014 - June 2015</p>
             </div>
-            <div class="col-wide">
+            <div class="col-wide job-description">
               <p>	Worked with MySQL to retrieve difficult telephone directory
                 queries from the database. </p>
             </div>
 
             <div class="col-narrow">
               <h3>Web Application Developer</h3>
-              <p>Derailed Douchebaggery</p>
+              <p class ="uppercase">Derailed Douchebaggery</p>
               <p>July 2013 - May 2014</p>
             </div>
-            <div class="col-wide">
+            <div class="col-wide job-description">
               <p>Volunteered to implement the website and the UI
                 for a social news and entertainment website.  </p>
             </div>
@@ -65,7 +70,7 @@
 
 
         <!-- // Education -->
-        <section class="education">
+        <section id="education" class="education">
           <div class="content-wrap">
             <h2>Education</h2>
 
@@ -85,21 +90,22 @@
     </main>
 
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
       <div class="content-wrap">
         <h2>Let's Keep in Touch!</h2>
 
         <!-- Social media and contact links. Add or remove any networks. -->
         <div class="contact-info">
-            <a href="mailto:vmandapa@gmu.edu">Mail</a>
-            <a href="http://mason.gmu.edu/~vmandapa/satwik/" target="_blank">yourwebsite.com</a>
-            <a href="https://github.com/satwikmvv" target="_blank">Github</a>
-            <a href="https://www.linkedin.com/in/satwikmandapati/" target="_blank">LinkedIn</a>
-            <a href="https://www.facebook.com/satwik.mandapati" target="_blank"> <img class="icon-img" src="images/fb.png"> Facebook</a>
+            <a href="mailto:vmandapa@gmu.edu"><img class="icon-img" src="images/mail.png"></a>
+            <!-- <a href="http://mason.gmu.edu/~vmandapa/satwik/" target="_blank">yourwebsite.com</a> -->
+            <a href="https://github.com/satwikmvv" target="_blank"><img class="icon-img" src="images/git.png"></a>
+            <a href="https://www.linkedin.com/in/satwikmandapati/" target="_blank"><img class="icon-img" src="images/linkedin.png"></a>
+            <a href="https://www.facebook.com/satwik.mandapati" target="_blank"> <img class="icon-img" src="images/fb.png"></a>
         </div>
 
         <p>Copyright 2018 by Satwik Mandapati</p>
       </div>
     </footer>
+</div>
 </body>
 </html>
